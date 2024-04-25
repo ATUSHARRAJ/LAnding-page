@@ -1,0 +1,141 @@
+body{
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+
+
+
+#container{
+    
+    display:flex;
+    height:100px;
+    width:100%;
+    direction:row;
+    justify-content:flex-start;
+}
+#box1{
+   
+    height:40px;
+    width:159px;
+    margin-right:1px;
+    
+}
+#box2{
+    
+    height:40px;
+    width:400px;
+    margin-left:30px;
+}
+#box3{
+    
+    height:40px;
+    width:100px;
+    margin-left:50px;
+
+    display:flex;
+    display:space-between;
+
+}
+#box4{
+    
+    height:40px;
+    width:100px;
+    margin-left:50px;
+    display:flex;
+}
+#box2A{
+    
+    height:40px;
+    width:400px;
+
+}
+.B{
+    padding-right: 10px;
+    display:inline-block;
+    margin-top:10px;
+}
+#box3C{
+    padding-top: 5.3px;
+
+}
+#box3C:hover{
+    transform:rotate(180deg);
+
+}
+
+    
+#box3:hover{
+    background-color:blue;
+   
+}
+.apple{
+    margin-right:15px;
+    
+
+}
+#box4A{
+    padding-top: 8px;
+}
+#box4B{
+    padding-top:10px;
+    text-decoration:;
+
+}
+#box5{
+    margin-left:20px;
+    display:flex;
+}
+#box5A{
+    padding-top: 8px;
+}
+#box5B{
+    padding-top:10px;
+    text-decoration:none;
+}
+#box6{
+    margin-left:60px;
+    display:flex;
+}
+#box6A{
+    padding-top:10.9px;
+
+    
+}
+a{
+    text-decoration: none;
+}
+#container1{
+    margin-top:20px;
+    height:150px;
+    width:100%;
+    display:flex;
+}
+.mango{
+    display:flex;
+    flex-direction: column;
+    height:150;
+    width:100%;
+    padding-right:16px;
+    padding-bottom:50px;
+}
+#hello{
+    display:block;
+    background-size:contain;
+background-image:url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/009501a3ad6d6fd2.jpg?q=20");
+     height:200px;
+    width:966;
+   
+    animation-name:tushar;
+    animation-duration:10s;
+    
+    animation-delay:2.5s;
+    animation-iteration-count:infinite;
+    
+
+}
+@keyframes tushar{
+    
+    25%{background-image:url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/f51d4324b73f58d7.jpg?q=20");}
+    75%{background-image:url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/7fd0e4ab26429926.jpg?q=20");}
+    100%{background-image:url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/ca2843e62171405e.jpg?q=20") ;}
+     
+}
